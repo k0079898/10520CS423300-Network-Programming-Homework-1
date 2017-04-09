@@ -1,7 +1,7 @@
-all: server.c client.c
-	gcc server.c -o server
-	gcc client.c -o client
+all: HW1_104062261_Ser.c HW1_104062261_Cli.c
+	gcc HW1_104062261_Ser.c -o HW1_104062261_Ser
+	gcc HW1_104062261_Cli.c -o HW1_104062261_Cli
 
 clean:
-	rm -f server
-	rm -f client
+	rm -f HW1_104062261_Ser
+	rm -f HW1_104062261_Cli
